@@ -50,7 +50,7 @@ ostream& operator<<(ostream& out, const MyString& tmp) {
         return out;
 } 
 MyString operator+(const char * s1, MyString s2) {
-    return s2.str + s1;
+    return s1 + s2.str;
 }
 int CompareString( const void * e1, const void * e2)
 {
